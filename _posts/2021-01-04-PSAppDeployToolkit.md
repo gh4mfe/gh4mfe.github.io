@@ -7,7 +7,7 @@ published: true
 ---
 
 
-Vor ein einiger Zeit war ich beruflich auf der Suche nach einer Alternative für das von uns genutzte Paketierungs-Framework, das auf AutoIT beruhte und bin auf das PSAppDeployToolkit aufmerksam geworden.
+Vor ein einiger Zeit war ich beruflich auf der Suche nach einer Alternative für das von uns genutzte Paketierungs-Framework, das auf [AutoIT](https://www.autoitscript.com/site/) beruhte und bin auf [PSAppDeployToolkit](https://psappdeploytoolkit.com/) aufmerksam geworden.
 
 ### Wofür brauche ich ein Paketierungs Framework?
 Hersteller-Softwarepakete, egal ob Setup.exe oder MSI benötigen oft noch individuelle Anpassungen auf dem Zielsystem.
