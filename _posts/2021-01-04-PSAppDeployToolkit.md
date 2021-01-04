@@ -17,8 +17,8 @@ Teilweise lassen sich diese Anpassungen direkt als Befehlzeile mitgeben, teilwei
 Dies alles, sauber protokolliert und mit allerlei Error-Handling garniert, bieten uns Paketierungsframeworks, wie das kostenlose PSAppDeployToolkit  [(GNU GPLv3)](https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/blob/master/LICENSE)
 
 ## Vorbereitung zur Nutzung des Toolkits
-Projekt-Seite: https://psappdeploytoolkit.com/
-Downloads: https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/releases
+[Projekt-Seite: https://psappdeploytoolkit.com/](https://psappdeploytoolkit.com/)
+[Downloads: https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/releases](https://github.com/PSAppDeployToolkit/PSAppDeployToolkit/releases)
 
 ![Bild Downloads](/assets/posts/210104_1/2020-05-23%2022_04_22-Releases%20·%20PSAppDeployToolkit_PSAppDeployToolkit%20·%20GitHub.png)
 
