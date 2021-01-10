@@ -2,6 +2,7 @@
 layout: post
 title: Softwarepaketierung mit PSAppDeploy Toolkit
 subtitle: PSAppDeployToolkit im Einsatz mit Ivanti Endpoint Manager
+cover-img: /assets/posts/210104_1/2020-05-23%2022_04_22-Releases%20·%20PSAppDeployToolkit_PSAppDeployToolkit%20·%20GitHub.png
 tags: [Softwarepaketierung, EPM]
 published: true
 ---
