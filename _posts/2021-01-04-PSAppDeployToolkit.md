@@ -9,25 +9,24 @@ published: true
 
 Vor ein einiger Zeit war ich beruflich auf der Suche nach einer Alternative für das von uns genutzte Paketierungs-Framework, das auf [AutoIT](https://www.autoitscript.com/site/) beruhte und bin auf [PSAppDeployToolkit](https://psappdeploytoolkit.com/) aufmerksam geworden.
 
- 
-  * [Wofür brauche ich ein Paketierungs Framework?](#wof-r-brauche-ich-ein-paketierungs-framework-)
-- [Vorbereitung zur Nutzung des Toolkits](#vorbereitung-zur-nutzung-des-toolkits)
-  * [Mit dem Zip-Download erhält man:](#mit-dem-zip-download-erh-lt-man-)
-  * [AppDeployToolkit\AppDeployToolkitConfig.xml](#appdeploytoolkit-appdeploytoolkitconfigxml)
-  * [Mein erster Testfall:](#mein-erster-testfall-)
-- [Das Script:](#das-script-)
-  * [Variable Declaration](#variable-declaration)
-  * [PRE-INSTALLATION:](#pre-installation-)
-    + [Close Apps + ForceCloseAppsCountdown 5](#close-apps---forcecloseappscountdown-5)
-    + [CheckDiskSpace](#checkdiskspace)
-    + [Entferne alte Version der Software](#entferne-alte-version-der-software)
-    + [Entferne alle Benutzerprofile](#entferne-alle-benutzerprofile)
-  * [INSTALLATION](#installation)
-  * [POST-INSTALLATION](#post-installation)
-  * [UNINSTALLATION](#uninstallation)
-- [Troubleshooting](#troubleshooting)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [Vorbereitung zur Nutzung des Toolkits](#vorbereitung-zur-nutzung-des-toolkits)
+  - [Mit dem Zip-Download erhält man:](#mit-dem-zip-download-erhält-man)
+  - [AppDeployToolkit\AppDeployToolkitConfig.xml](#appdeploytoolkitappdeploytoolkitconfigxml)
+  - [Mein erster Testfall:](#mein-erster-testfall)
+- [Das Script:](#das-script)
+  - [Variable Declaration](#variable-declaration)
+  - [PRE-INSTALLATION:](#pre-installation)
+    - [Close Apps + ForceCloseAppsCountdown 5](#close-apps--forcecloseappscountdown-5)
+    - [CheckDiskSpace](#checkdiskspace)
+    - [Entferne alte Version der Software](#entferne-alte-version-der-software)
+    - [Entferne alle Benutzerprofile](#entferne-alle-benutzerprofile)
+  - [INSTALLATION](#installation)
+  - [POST-INSTALLATION](#post-installation)
+  - [UNINSTALLATION](#uninstallation)
+- [Troubleshooting](#troubleshooting)
+- [Run Install](#run-install)
+- [Run Uninstall](#run-uninstall)
 
 ### Wofür brauche ich ein Paketierungs Framework?
 Hersteller-Softwarepakete, egal ob Setup.exe oder MSI benötigen oft noch individuelle Anpassungen auf dem Zielsystem.
@@ -146,5 +145,13 @@ In der ISE Console kann man nun wunderbar den Scriptablauf und das umfangreiche 
 ![DEBUG-Run](../assets/posts/210104_1/2020-05-23%2023_11_08-Clipboard.png)
 
 Wie man sieht funktioniert das Deployment via PS1 ausgezeichnet.
+
+## Run Install
 Um Problemen mit der Execution-Policy aus dem Weg zu gehen nutze ich aber auch gern die mitgelieferte Deploy-Application.exe + Commandline:
-".\Deploy-Application-CiscoJabber-Update.ps1" -DeploymentType "Install" -AllowRebootPassThru”
+``` cmd
+Deploy-Application.exe .\Deploy-Application-CiscoJabber-Update.ps1 -DeploymentType "Install" -AllowRebootPassThru”
+```
+## Run Uninstall
+``` cmd
+Deploy-Application.exe .\Deploy-Application-CiscoJabber-Update.ps1 -DeploymentType "UnInstall" -AllowRebootPassThru”
+```
