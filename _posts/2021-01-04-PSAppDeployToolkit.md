@@ -48,12 +48,18 @@ Die notwendigen Befehle lassen sich in den Beispielen und der beiligenden Word-D
 ![Variable Declatation](/assets/posts/210104_1/2020-05-23%2022_23_23-Clipboard.png)
 
 ### PRE-INSTALLATION:
+
+- Close Apps + ForceCloseAppsCountdown 5
+- CheckDiskSpace
+- Entferne alte Version der Software 
+- Entferne alle Benutzerprofile
+
+
 ``` powershell
 Show-InstallationWelcome -CloseApps 'CiscoJabber' -CheckDiskSpace -ForceCloseAppsCountdown 5 -Silent
 ```
 
-- Close Apps + ForceCloseAppsCountdown 5
-- CheckDiskSpace
+
 
 #### Close Apps + ForceCloseAppsCountdown 5
 ![CloseApps](/assets/posts/210104_1/2020-05-23%2022_31_53-Remotedesktopverbindung.png)
@@ -64,11 +70,13 @@ Show-InstallationWelcome -CloseApps 'CiscoJabber' -CheckDiskSpace -ForceCloseApp
 -	-ForceCloseAppsCountdown <Int32>
     Option to provide a countdown in seconds until the specified applications are automatically closed regardless of whether deferral is allowed.
 
+#### Entferne alte Version der Software
 ``` powershell
 Remove-MSIApplications -Name 'Cisco Jabber' -PassThru
 ```
 -> Enfernt alle Applikationen die via Windows Installer (MSI) mit dem Namen zu finden sind
 
+#### Entferne alle Benutzerprofile
 ``` powershell
 $ProfilePaths = Get-UserProfiles -ExcludeSystemProfiles $true -ExcludeDefaultUser $true | Select-Object -ExpandProperty 'ProfilePath'
         ForEach ($Profile in $ProfilePaths) {
