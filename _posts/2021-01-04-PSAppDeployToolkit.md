@@ -52,9 +52,10 @@ Die notwendigen Befehle lassen sich in den Beispielen und der beiligenden Word-D
 Show-InstallationWelcome -CloseApps 'CiscoJabber' -CheckDiskSpace -ForceCloseAppsCountdown 5 -Silent
 ```
 
-- Close Apps
--	CheckDiskSpace
--	ForceCloseAppsCountdown 5
+- Close Apps + ForceCloseAppsCountdown 5
+- CheckDiskSpace
+
+#### Close Apps + ForceCloseAppsCountdown 5
 ![CloseApps](/assets/posts/210104_1/2020-05-23%2022_31_53-Remotedesktopverbindung.png)
 
 
