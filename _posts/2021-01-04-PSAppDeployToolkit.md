@@ -97,7 +97,8 @@ Execute-MSI -Action   'Install' -Path 'CiscoJabberSetup.msi' -Parameters '/qn CL
 ``` powershell
 {<# Show-InstallationPrompt -Message 'You can customize text to appear at the end of an install or remove it completely for unattended installations.' -ButtonRightText 'OK' -Icon Information -NoWait #>}
 ```
--> Diesen Abschnitt kommentiere ich meistens aus.
+-> Wenn man nach der Installation keine weiteren Schritte durchführen muss (wie in meinem Beispiel) 
+Kann man diesen Abschnitt einfach auskommentieren. Achtung: die }-Klammer am Ende muss bleiben. 
 
 ### UNINSTALLATION 
 
