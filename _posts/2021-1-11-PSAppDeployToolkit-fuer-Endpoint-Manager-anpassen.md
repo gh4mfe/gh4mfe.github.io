@@ -33,13 +33,13 @@ In der EPM-Console im Bereich der Distribution Packages findet man den ["Return 
 
 Hier legt man ein neues Template an und pflegt die Return-Codes ein
 ![Add a new return code mapping](/assets/posts/210111_1/016a2cbdcfb340888dccc966d8e83694.png)
-<sup>Add a new return code mapping</sup>
+<br><sup>Add a new return code mapping</sup>
 
 ### Return codes für Ivanti Endpoint Manager (EPM) anpassen
 Hier kommt das große **ACHTUNG!** - Leider sind die Return codes des PSADT 
 nicht mit Ivanti EPM kompatibel:
 ![Return codes muessen bei EPM zwischen -32768 und 32767 liegen](/assets/posts/210111_1/7a0fcd933e2949889f6ea9eeaa01a271.png)
-<sup>Returncodes müssen bei EPM zwischen -32768 und 32767 liegen</sup>
+<br><sup>Returncodes müssen bei EPM zwischen -32768 und 32767 liegen</sup>
 
 Darum müssen wir die Return codes (soweit im Script zugänglich) verändern.
 Leider gibt es aus Return codes die in der .exe einkompiliert sind oder anderweitig ausgegeben werden. Die Mühe diese Codes zu ändern habe ich mir nicht gemacht und es auch noch nicht gebraucht:
