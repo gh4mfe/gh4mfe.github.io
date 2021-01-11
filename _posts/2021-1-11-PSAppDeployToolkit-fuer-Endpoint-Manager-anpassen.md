@@ -66,21 +66,21 @@ Leider gibt es aus Return codes die in der .exe einkompiliert sind oder anderwei
 
 Die Return codes habe ich in den hier beschriebenen Dateien vorgenommen. Alles dokumentiert durch Kommentare in den Dateien bzw. durch das Changelog von git (ein Versionierungssystem zu verwenden sei für jede Skripting-Arbeit empfohlen!)
 #### Deploy-Application.ps1
-60001 -> 20001
-![a9a73446dab3385bcc0ba149a8b408e9.png](/assets/posts/210111_1/856be96de1c24581bf9370b5dc9162e1.png)
-60002 -> 20002
-![51c8024cd50ed169f0b663fa27e3a4bc.png](/assets/posts/210111_1/67ff9baff3914c6eb3005b614d82a67e.png)
+60001 -> 20001<br>
+![a9a73446dab3385bcc0ba149a8b408e9.png](/assets/posts/210111_1/856be96de1c24581bf9370b5dc9162e1.png)<br>
+60002 -> 20002<br>
+![51c8024cd50ed169f0b663fa27e3a4bc.png](/assets/posts/210111_1/67ff9baff3914c6eb3005b614d82a67e.png)<br>
 
 #### AppDeployToolkitMain.ps1
-60003 -> 20003
-![a5d825812a4061d68d91906b628cf036.png](/assets/posts/210111_1/652f1b296bda47e1b8d69c91edac2326.png)
-60004 -> 20004
-60005 -> 20005
-60007 -> 20007
-60008 -> 20008
-60009 -> 20009
-60012 -> 20012
-60013 -> 20013
+60003 -> 20003<br>
+![a5d825812a4061d68d91906b628cf036.png](/assets/posts/210111_1/652f1b296bda47e1b8d69c91edac2326.png)<br>
+60004 -> 20004<br>
+60005 -> 20005<br>
+60007 -> 20007<br>
+60008 -> 20008<br>
+60009 -> 20009<br>
+60012 -> 20012<br>
+60013 -> 20013<br>
 
 ### EPM Return code template
 ![EPM Console - Distribution packages - Return code template manager](/assets/posts/210111_1/9e8bead343ac47f5b833e9e84cb0f8cb.png)
@@ -93,6 +93,7 @@ Die Return codes habe ich in den hier beschriebenen Dateien vorgenommen. Alles d
 
 Auf seinem EPM-Core-Server Share legt man nun einen Software-Ordner wie im Beispiel aus dem anderen Artikel beschrieben ab.
 z.B.: http://coreser.fqdn/Software/Cisco/Jabber/Version/
+
 ![4e700f7da773d8e68de50b8c5295ffc5.png](/assets/posts/210111_1/849f140f305a410f813db4fbb81cb22c.png)
 
 
