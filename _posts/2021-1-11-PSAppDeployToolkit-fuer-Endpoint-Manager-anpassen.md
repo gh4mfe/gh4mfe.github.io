@@ -11,6 +11,18 @@ published: true
 
 Ergänzend zum Artikel über das [PSAppDeployToolkit](2021-01-04-PSAppDeployToolkit/), möchte ich hier die Einbindung des Frameworks in Ivanti Endpoint Manager (EPM) zusammenfassen.
 
+
+- [1. Return codes](#1-return-codes)
+  - [Ein Return code mapping anlegen](#ein-return-code-mapping-anlegen)
+  - [Return codes für Ivanti Endpoint Manager (EPM) anpassen](#return-codes-für-ivanti-endpoint-manager-epm-anpassen)
+    - [Deploy-Application.ps1](#deploy-applicationps1)
+    - [AppDeployToolkitMain.ps1](#appdeploytoolkitmainps1)
+  - [EPM Return code template](#epm-return-code-template)
+    - [Als fertiger Download zum Import:](#als-fertiger-download-zum-import)
+- [2. Ein Distribution package mit PSADT erstellen](#2-ein-distribution-package-mit-psadt-erstellen)
+  
+
+
 ## 1. Return codes
 ### Ein Return code mapping anlegen
 Das PSAppdeploy Toolkit (PSADT) verwendet eigene Return Codes. Damit diese von EPM richtig interpretiert (Failed oder Success) und die Fehlerbeschreibungen dargestellt werden, muss zuerst ein Return code template angelegt werden.
