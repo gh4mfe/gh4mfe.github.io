@@ -2,7 +2,9 @@
 layout: post
 title: Ivanti Endpoint Manager + PSAppDeployToolkit nutzen
 subtitle: PSAppDeployToolkit im Einsatz mit dem Ivanti Endpoint Manager
-cover-img: /assets/posts/210111_1/61e76ffa78954c85a0973580da07b9fd.png
+cover-img: /assets/posts/210111_1/cover-red-plain.png
+share-img: /assets/posts/210111_1/61e76ffa78954c85a0973580da07b9fd.png
+thumbnail-img:  /assets/posts/210111_1/61e76ffa78954c85a0973580da07b9fd.png
 tags: [Softwarepaketierung, EPM]
 published: true
 ---
