@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<ExportableContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LastSavedBy="DOM\Clean" Revision="0" SourceCore="core.domain.my" Guid="fake" SaveType="Inherit">
+  <DuplicateReferences />
+  <SyncEnabled>No</SyncEnabled>
+  <RemoteConsole>MYPC</RemoteConsole>
+  <LastSavedDate>0001-01-01T00:00:00+01:00</LastSavedDate>
+  <Name>PSAppDeploy</Name>
+  <AssemblyVer>11.0.0.0</AssemblyVer>
+  <Items>
+    <Exportable xsi:type="EReturnCodeTemplate" LastSavedBy="DOM\Clean" Revision="4255" SourceCore="core.domain.my" Owner="DOM\Clean" Guid="core.domain.my_v12688" SaveType="Inherit">
+      <DuplicateReferences />
+      <SyncEnabled>No</SyncEnabled>
+      <RemoteConsole>WUPC-EDV5061</RemoteConsole>
+      <LastSavedDate>2021-01-08T12:20:57.773+01:00</LastSavedDate>
+      <Name>PSAppDeploy</Name>
+      <AssemblyVer>11.0.0.0</AssemblyVer>
+      <Type>4</Type>
+      <EnuName>PSAppDeploy</EnuName>
+      <EnuDescription>Return Codes for PSAppDeploy (Ivanti Customized)</EnuDescription>
+      <IsDefault>false</IsDefault>
+      <Mappings>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>263</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>-5535</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>An error occurred in Deploy-Application.ps1. Check your script syntax use.</EnuDescription>
+          <ID>263</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>264</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>Default</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>Package deployment failed</EnuDescription>
+          <ID>264</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>265</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>0</ReturnCode>
+          <MapToCode>2</MapToCode>
+          <EnuDescription>Empty message</EnuDescription>
+          <ID>265</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>266</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>20001</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>An error occurred in Deploy-Application.ps1. Check your script syntax use.</EnuDescription>
+          <ID>266</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>267</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>20002</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>Error when running Execute-Process function</EnuDescription>
+          <ID>267</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>268</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>20003</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>Administrator privileges required for Execute-ProcessAsUser function</EnuDescription>
+          <ID>268</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>271</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>20012</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>A UI prompt timed out or the user opted to defer the installation.</EnuDescription>
+          <ID>271</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>272</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>20008</ReturnCode>
+          <MapToCode>3</MapToCode>
+          <EnuDescription>Deploy-Application.ps1 failed to dot source AppDeployToolkitMain.ps1 either because it could not be found or there was an error while it was being dot sourced.</EnuDescription>
+          <ID>272</ID>
+        </DBReturnCodeMapping>
+        <DBReturnCodeMapping>
+          <ReturnCodeMapping_Idn>273</ReturnCodeMapping_Idn>
+          <ReturnCodeTemplate_Idn>17</ReturnCodeTemplate_Idn>
+          <ReturnCode>3010</ReturnCode>
+          <MapToCode>2</MapToCode>
+          <EnuDescription>The requested operation is successful. Changes will not be effective until the system is rebooted.</EnuDescription>
+          <ID>273</ID>
+        </DBReturnCodeMapping>
+      </Mappings>
+    </Exportable>
+  </Items>
+</ExportableContainer>
