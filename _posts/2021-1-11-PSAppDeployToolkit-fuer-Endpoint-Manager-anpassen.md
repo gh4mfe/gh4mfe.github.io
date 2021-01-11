@@ -31,6 +31,7 @@ nicht mit Ivanti EPM kompatibel:
 
 Darum müssen wir die Return codes (soweit im Script zugänglich) verändern.
 Leider gibt es aus Return codes die in der .exe einkompiliert sind oder anderweitig ausgegeben werden. Die Mühe diese Codes zu ändern habe ich mir nicht gemacht und es auch noch nicht gebraucht:
+
 | Default Returncodes | EPM Edited Return Codes | Meaning |
 | --- | --- | --- |
 | 60000 - 68999 | 20000 - 28999 | Reserved for built-in exit codes in Deploy-Application.ps1, Deploy-Application.exe, and AppDeployToolkitMain.ps1 |
