@@ -9,7 +9,7 @@ tags: [Softwarepaketierung, EPM]
 published: true
 ---
 
-Ergänzend zum Artikel über das [PSAppDeployToolkit](2021-01-04-PSAppDeployToolkit/), möchte ich hier die Einbindung des Frameworks in Ivanti Endpoint Manager (EPM) zusammenfassen.
+Ergänzend zum Artikel über das [PSAppDeployToolkit](../2021-01-04-PSAppDeployToolkit/), möchte ich hier die Einbindung des Frameworks in Ivanti Endpoint Manager (EPM) zusammenfassen.
 
 
 - [1. Return codes](#1-return-codes)
