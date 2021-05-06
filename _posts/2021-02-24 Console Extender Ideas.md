@@ -1,4 +1,3 @@
-2021-02-24 Console Extender Ideas
 ---
 layout: post
 title: Ivanti Endpoint Manager + Console Extender Ideas
@@ -9,7 +8,7 @@ thumbnail-img:  /assets/posts/210111_1/61e76ffa78954c85a0973580da07b9fd.png
 tags: [Console, EPM]
 published: true
 ---
-
+2021-02-24 Console Extender Ideas
 To be able to run the commands from any console I added all Scripts and binaries to a share on the core-server.
 
 # Prepare the share
